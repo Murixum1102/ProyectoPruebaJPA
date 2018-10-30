@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="ProyectoPruebaJPA">
+		<class>edu.ulatina.componentes.prueba.Correo</class>
+		<class>edu.ulatina.componentes.prueba.Correosenviar</class>
+		<class>edu.ulatina.componentes.prueba.CorreosenviarPK</class>
+		<class>edu.ulatina.componentes.prueba.CorreosenviarHasListacorreo</class>
+		<class>edu.ulatina.componentes.prueba.CorreosenviarHasListacorreoPK</class>
+		<class>edu.ulatina.componentes.prueba.Listacorreo</class>
+		<class>edu.ulatina.componentes.prueba.Multimedia</class>
+		<class>edu.ulatina.componentes.prueba.Multimediaporpublicacion</class>
+		<class>edu.ulatina.componentes.prueba.MultimediaporpublicacionPK</class>
+		<class>edu.ulatina.componentes.prueba.Persona</class>
+		<class>edu.ulatina.componentes.prueba.Publicacione</class>
+		<class>edu.ulatina.componentes.prueba.PublicacionePK</class>
+		<class>edu.ulatina.componentes.prueba.Redsocial</class>
+		<class>edu.ulatina.componentes.prueba.Role</class>
+	</persistence-unit>
+</persistence>
